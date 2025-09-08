@@ -1,0 +1,48 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5rem 7% 1.4rem;  
+    background-color: #222222;
+}
+
+footer .container {
+    width: 100%;
+    display: flex;
+}
+
+footer .container .logo-big img {
+    width: 40%;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+}
+
+footer .container .info {
+    margin: auto;
+}
+
+footer .container .info h1 {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: #f7f7f7;
+}
+
+footer .container .info p {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #f7f7f7;
+}
+
+footer h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    color: rgba(253, 253, 253, 0.7);
+}
