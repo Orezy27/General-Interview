@@ -475,7 +475,6 @@ footer h2 {
 
     .schedule-container .balok{
         width: 100%;
-        color: #FBBE17;
     }
 
     .schedule-container .label{
@@ -550,7 +549,6 @@ footer h2 {
 
     .contact-container .body h1{
         font-size: 18px;
-        background-color: #222222;
     }
 
     .contact-container .body div {
@@ -588,5 +586,6 @@ footer h2 {
     }
 
 }
+
 
 
