@@ -265,11 +265,9 @@ header{
     font-size: 18px;
     text-align: center;
 
-    width: 100%;
+     width: 60%;
     margin: 0 auto;
-    white-space: normal;
-    word-break: break-word;
-    overflow-wrap: break-word;
+    padding: 20px;
 }
 
 .contact img{
@@ -590,4 +588,5 @@ footer h2 {
     }
 
 }
+
 
