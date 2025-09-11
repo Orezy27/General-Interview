@@ -40,59 +40,71 @@ $sql = "SELECT * FROM skill WHERE noujian LIKE ?";
                     <H4>Struk akhir seleksi sudah dicetak, cek hasilmu sekarang!</H4>
                 </div>
 
-                <div class="result">
-                    <div class="line-dashed">
-                        <h3>
-                            Selamat, <span>FABIAN VAREL</span> [DIVISI OPERATOR], Kamu <span>LOLOS</span> pada tahap Skill Interview
 
-                            <!-- <?php
-                            if ($stmt = $conn->prepare($sql)) {
-                                // Bind the parameter
-                                $stmt->bind_param("s", $noujian);
+                    <div class="result">
+                        <div class="text-result">                        
+                            <div class="line-dashed">
+                                <h3>
+                                    Selamat, <span>FABIAN VAREL</span> [DIVISI OPERATOR], Kamu <span>LOLOS</span> pada tahap Skill Interview
 
-                                // Execute the query
-                                $stmt->execute();
+                                    <!-- <?php  
+                                    if ($stmt = $conn->prepare($sql)) {
+                                        // Bind the parameter
+                                        $stmt->bind_param("s", $noujian);
 
-                                // Get the result set
-                                $result = $stmt->get_result();
+                                        // Execute the query
+                                        $stmt->execute();
 
-                                // Check the number of rows
-                                $num_rows = $result->num_rows;
+                                        // Get the result set
+                                        $result = $stmt->get_result();
 
-                                if ($num_rows == 0) {
-                                    // No results found, display the failure message inside the title
-                                    echo "<br><span style='color: red; font-size: 24px; '>Harap masukkan ulang NIM anda atau coba hubungi Contact Person.</span>";
-                                } else {
-                                    // Results found, display the interview result
-                                    while ($data = $result->fetch_assoc()) {
-                                        $ket = $data['ket'];
-                                        $msg = '';
+                                        // Check the number of rows
+                                        $num_rows = $result->num_rows;
 
-                                        if (strtolower(trim($ket)) == "lolos") {
-                                            // Passed the interview
-                                            $msg = "Selamat, <span>" . strtoupper(htmlspecialchars($data['name'])) . "</span> <span>(DIVISI " . strtoupper(htmlspecialchars($data['jurusan'])) . ")</span>, kamu <span style='color: #02DCA2;'>LOLOS</span> pada tahap Skill Interview!";
+                                        if ($num_rows == 0) {
+                                            // No results found, display the failure message inside the title
+                                            echo "<br><span style='color: red; font-size: 24px; '>Harap masukkan ulang NIM anda atau coba hubungi Contact Person.</span>";
                                         } else {
-                                            // Failed the interview
-                                            $msg = "Mohon maaf, <span>" . strtoupper(htmlspecialchars($data['name'])) . "</span> <span>(DIVISI " . strtoupper(htmlspecialchars($data['jurusan'])) . ")</span>, kamu <span style='color: red;'>BELUM BERHASIL LOLOS</span> pada tahap Skill Interview.";
+                                            // Results found, display the interview result
+                                            while ($data = $result->fetch_assoc()) {
+                                                $ket = $data['ket'];
+                                                $msg = '';
+
+                                                if (strtolower(trim($ket)) == "lolos") {
+                                                    // Passed the interview
+                                                    $msg = "Selamat, <span>" . strtoupper(htmlspecialchars($data['name'])) . "</span> <span>(DIVISI " . strtoupper(htmlspecialchars($data['jurusan'])) . ")</span>, kamu <span style='color: #02DCA2;'>LOLOS</span> pada tahap Skill Interview!";
+                                                } else {
+                                                    // Failed the interview
+                                                    $msg = "Mohon maaf, <span>" . strtoupper(htmlspecialchars($data['name'])) . "</span> <span>(DIVISI " . strtoupper(htmlspecialchars($data['jurusan'])) . ")</span>, kamu <span style='color: red;'>BELUM BERHASIL LOLOS</span> pada tahap Skill Interview.";
+                                                }
+
+                                                // Embed the message in the title with the same style as "BVOICE RADIO"
+                                                echo "<br><span style='color: white; font-size: 24px;'>$msg</span>";
+                                            }
                                         }
 
-                                        // Embed the message in the title with the same style as "BVOICE RADIO"
-                                        echo "<br><span style='color: white; font-size: 24px;'>$msg</span>";
+                                        // Close the statement
+                                        $stmt->close();
                                     }
-                                }
+                                    ?> -->
+                                </h3>
+                            </div>
+                        </div>
 
-                                // Close the statement
-                                $stmt->close();
-                            }
-                            ?> -->
-                        </h3>
+                        <div class="goneng">
+                            <div class="tangan">
+                                <img src="/aset/tangan goneng.png" alt="" class="tangan1">
+                                <img src="/aset/tangan goneng.png" alt="" class="tangan2">
+                            </div>
+
+                            <img src="/aset/goneng 2.png" alt="" class="badan">
+                        </div>
                     </div>
                     
-                    
-                </div>
 
-                <img src="/aset/BMART.png" alt="">
-            </div>
+           
+
+            <img src="/aset/BMART.png" alt="" class="BMART">
         </main>
     </section>
     
